@@ -1,0 +1,16 @@
+00:07:23 **** Auto Build of configuration Debug for project TestAPP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pynq_z2_testapp.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pynq_z2_testapp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/pynq_z2_testapp.d" -MT"src/pynq_z2_testapp.o" -o "src/pynq_z2_testapp.o" "../src/pynq_z2_testapp.c"
+In file included from ../src/pynq_z2_testapp.c:2:0:
+../src/pynq_z2_audio.h:4:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/pynq_z2_testapp.o] ´íÎó 1
+
+00:07:25 Build Finished (took 1s.979ms)
+
